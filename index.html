@@ -122,9 +122,9 @@
     </section>
 
     <!-- Client Section -->
-    <section class="max-w-[1140px] mx-auto px-4 mb-24">
+    <section class="max-w-[1140px] mt-9 mx-auto px-4 mb-24">
         <div
-            class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-[10px] px-8 md:px-16 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center relative overflow-hidden h-auto md:h-[650px]">
+            class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-[10px] px-8 md:px-16 py-10 md:py-16 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center relative overflow-hidden">
             <!-- Text Content -->
             <div class="z-10 text-white relative">
                 <h2 class="text-3xl md:text-5xl font-extrabold mb-6 leading-tight">
@@ -136,45 +136,60 @@
                     believable.
                 </p>
                 <button
-                    class="bg-white text-[#F05925] px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
+                    class="bg-white text-[#F05925] px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors mb-8 lg:mb-0">
                     Show All
                 </button>
-                </p>
             </div>
-            <!-- Card -->
-            <div class="bg-white text-black p-8 rounded-xl relative max-w-[450px]">
-                <div class="relative top-4 left-4 bg-white rounded-full p-1">
-                    <img src="./images/client.png" alt="Client" class="w-16 h-16 rounded-full object-cover">
-                </div>
-                <p class="text-gray-500 mb-6 mt-6">
-                    We are providing the best and suitable home insurance services for the people who are interested
-                    to treatment
-                </p>
-                <div>
-                    <h4 class="font-bold text-lg">Ilham Yuda</h4>
-                    <p class="text-gray-400 text-sm">Businessman</p>
-                </div>
-                <!-- Quot Mark -->
-                <div class="absolute top-8 right-8 text-[#FF8938] opacity-20">
-                    <i class="fa-solid fa-quote-right fa-3x"></i>
-                </div>
+            <!-- Cards Container -->
+            <div class="relative w-full flex items-center justify-center lg:justify-end">
+                <img src="./images/client-banner.png" alt="Client testimonials"
+                    class="w-full max-w-[570px] h-auto object-contain">
             </div>
-            <div class="bg-white text-black p-8 rounded-xl absolute top-5/6 left-2/3 transform -translate-x-0 -translate-y-48">
-                <div class="absolute -top-4 -left-4 bg-white rounded-full p-1">
-                    <img src="./images/client.png" alt="Client" class="w-16 h-16 rounded-full object-cover">
-                </div>
-                <p class="text-gray-500 mb-6 mt-6">
-                    We are providing the best and suitable home insurance services for the people who are interested
-                    to treatment
+
+        </div>
+    </section>
+
+
+    <!-- news section -->
+      <section class="max-w-[1140px] mx-auto px-4 mt-9 mb-24">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-black mb-4">News & Events</h2>
+            <p class="text-gray-500 max-w-2xl mx-auto text-sm md:text-base">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- News Card 1 -->
+            <div class="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow bg-white">
+                <img src="./images/news-1.png" alt="News 1" class="w-full h-48 object-cover rounded-lg mb-6">
+                <p class="text-gray-500 text-sm mb-3">Feb 05, 2027</p>
+                <h3 class="text-xl font-bold text-black mb-3">Collecting 8 points for discount</h3>
+                <p class="text-gray-500 text-sm mb-4">There are many variations of passages of Lorem Ipsum available.
                 </p>
-                <div>
-                    <h4 class="font-bold text-lg">Ilham Yuda</h4>
-                    <p class="text-gray-400 text-sm">Businessman</p>
-                </div>
-                <!-- Quot Mark -->
-                <div class="absolute top-8 right-8 text-[#FF8938] opacity-20">
-                    <i class="fa-solid fa-quote-right fa-3x"></i>
-                </div>
+                <a href="#" class="font-bold text-black hover:text-[#FF0000] hover:underline">Learn More</a>
+            </div>
+
+            <!-- News Card 2 -->
+            <div class="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow bg-white">
+                <img src="./images/news-2.png" alt="News 2" class="w-full h-48 object-cover rounded-lg mb-6">
+                <p class="text-gray-500 text-sm mb-3">Feb 05, 2027</p>
+                <h3 class="text-xl font-bold text-black mb-3">Collecting 8 points for discount</h3>
+                <p class="text-gray-500 text-sm mb-4">There are many variations of passages of Lorem Ipsum available.
+                </p>
+                <a href="#" class="font-bold text-black hover:text-[#FF0000] hover:underline">Learn More</a>
+            </div>
+
+            <!-- News Card 3 -->
+            <div class="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow bg-white">
+                <img src="./images/news-3.png" alt="News 3" class="w-full h-48 object-cover rounded-lg mb-6">
+                <p class="text-gray-500 text-sm mb-3">Feb 05, 2027</p>
+                <h3 class="text-xl font-bold text-black mb-3">Collecting 8 points for discount</h3>
+                <p class="text-gray-500 text-sm mb-4">There are many variations of passages of Lorem Ipsum available.
+                </p>
+                <a href="#" class="font-bold text-black hover:text-[#FF0000] hover:underline">Learn More</a>
             </div>
         </div>
     </section>
