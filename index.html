@@ -23,7 +23,7 @@
         body {
             font-family: 'Manrope', sans-serif;
             background-color: #fff;
-            max-width: 1140px;
+            max-width: 1600px;
             width: 100%;
             margin: 0 auto;
             box-sizing: border-box;
@@ -39,7 +39,7 @@
 
 <body>
     <!-- Hero Section -->
-    <section class="container mx-auto px-4 mt-10 md:mt-20 mb-32">
+    <section class="max-w-[1140px] mx-auto px-4 md:mt-10">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3 items-center">
             <!-- Content -->
             <div class="banner-left">
@@ -79,7 +79,7 @@
     </section>
 
     <!-- Featured products section -->
-    <section class="container mb-24 mx-auto px-4">
+    <section class="max-w-[1140px] mx-auto mb-24 mt-30">
         <div class="text-center mb-12">
             <h2 class="text-3xl md:text-[45px] font-extrabold text-black mb-4">Our Featured Products</h2>
             <p class="text-gray-600 max-w-[910px] mx-auto text-base">
@@ -122,7 +122,7 @@
     </section>
 
     <!-- Client Section -->
-    <section class="max-w-[1140px] mt-9 mx-auto px-4 mb-24">
+    <section class="max-w-[1140px] mt-20 mx-auto px-4 mb-24">
         <div
             class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-[10px] px-8 md:px-16 py-10 md:py-16 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center relative overflow-hidden">
             <!-- Text Content -->
@@ -151,7 +151,7 @@
 
 
     <!-- news section -->
-      <section class="max-w-[1140px] mx-auto px-4 mt-9 mb-24">
+      <section class="max-w-[1140px] mx-auto mt-20 mb-24">
         <div class="text-center mb-12">
             <h2 class="text-3xl md:text-5xl font-extrabold text-black mb-4">News & Events</h2>
             <p class="text-gray-500 max-w-2xl mx-auto text-sm md:text-base">
@@ -194,6 +194,82 @@
         </div>
     </section>
 
+    <!-- footer section -->
+     <footer class="bg-gradient-to-r from-[#FF0000]/10 to-[#FF8938]/10 pt-30 pb-12 mt-20">
+        <div class="max-w-[1140px] mx-auto p-10">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-16 gap-8">
+                <img src="./images/cup.png" alt="Logo" class="w-20">
+
+                <div class="flex flex-col md:flex-row items-center gap-6 w-full md:w-auto">
+                    <span class="text-gray-600 font-medium">Ready to get started?</span>
+                    <button
+                        class="bg-gradient-to-r from-[#FF0000] to-[#FF8938] text-white font-bold py-3 px-6 rounded-lg hover:opacity-90 transition-opacity">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-bold text-lg text-black mb-6">Quick Link</h4>
+                    <ul class="space-y-4 text-gray-500 text-sm">
+                        <li><a href="#" class="hover:text-[#FF0000] transition-colors">Home</a></li>
+                        <li><a href="#" class="hover:text-[#FF0000] transition-colors">About Us</a></li>
+                        <li><a href="#" class="hover:text-[#FF0000] transition-colors">Insurance</a></li>
+                        <li><a href="#" class="hover:text-[#FF0000] transition-colors">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Our Service -->
+                <div>
+                    <h4 class="font-bold text-lg text-black mb-6">Our Service</h4>
+                    <ul class="space-y-4 text-gray-500 text-sm">
+                        <li><a href="#" class="hover:text-[#FF0000] transition-colors">Life Insurance</a></li>
+                        <li><a href="#" class="hover:text-[#FF0000] transition-colors">Car Insurance</a></li>
+                        <li><a href="#" class="hover:text-[#FF0000] transition-colors">Health Insurance</a></li>
+                        <li><a href="#" class="hover:text-[#FF0000] transition-colors">House Insurance</a></li>
+                    </ul>
+                </div>
+
+                <!-- Help -->
+                <div>
+                    <h4 class="font-bold text-lg text-black mb-6">Help</h4>
+                    <ul class="space-y-4 text-gray-500 text-sm">
+                        <li><a href="#" class="hover:text-[#FF0000] transition-colors">FAQs</a></li>
+                        <li><a href="#" class="hover:text-[#FF0000] transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Subscribe -->
+                <div>
+                    <h4 class="font-bold text-lg text-black mb-6">Subscribe to our newsletter</h4>
+                    <form class="flex flex-col gap-4">
+                        <div class="relative">
+                            <input type="email" placeholder="Email address"
+                                class="w-full bg-transparent border-b-2 border-black/20 py-2 focus:outline-none focus:border-[#FF0000] transition-colors placeholder:text-gray-400">
+                            <button type="submit"
+                                class="absolute right-0 top-1/2 -translate-y-1/2 bg-[#FF8938] text-white w-8 h-8 rounded-full flex items-center justify-center hover:bg-[#FF0000] transition-colors">
+                                <i class="fa-solid fa-chevron-right text-xs"></i>
+                            </button>
+                        </div>
+                    </form>
+                    <div class="flex gap-4 mt-8">
+                        <a href="#" class="text-gray-500 hover:text-[#1877F2] transition-colors"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-500 hover:text-[#1DA1F2] transition-colors"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="text-gray-500 hover:text-[#E1306C] transition-colors"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center text-gray-400 text-sm">
+                <p>&copy; 2027 UIDesign.to - All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
 
 </body>
